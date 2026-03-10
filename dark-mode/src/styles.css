@@ -1,0 +1,53 @@
+[data-theme="dark"] {
+  --bg-color: black;
+  --text-color: white;
+  --heading-color: black;
+}
+
+[data-theme="light"] {
+  --bg-color: black;
+  --text-color: white;
+  --heading-color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.nav {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  color: inherit;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+.about,
+.home,
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}

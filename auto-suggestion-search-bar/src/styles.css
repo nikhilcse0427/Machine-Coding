@@ -1,0 +1,16 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: rgb(39, 169, 221);
+  color: white;
+}
+
+.container {
+  height: auto;
+  width: auto;
+}

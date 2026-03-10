@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  border: solid black 2px;
+  height: auto;
+  width: 100px;
+  padding: 5px;
+}
+
+.signal-box {
+  border: solid black 2px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 1px;
+}

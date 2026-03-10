@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: 500px;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  cursor: arrow;
+}
+
+.btn-next,
+.btn-prev {
+  position: absolute;
+  top: 50%;
+  padding: 20px;
+  background-color: yellow;
+}
+
+.btn-prev {
+  left: 0px;
+}
+.btn-next {
+  right: 0px;
+}
