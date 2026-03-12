@@ -12,7 +12,6 @@ export default function App() {
     const data = await fetch("https://dummyjson.com/products?limit=150");
     const jsonData = await data.json();
     setProducts(jsonData.products);
-    console.log(jsonData.products);
   };
 
   useEffect(() => {
