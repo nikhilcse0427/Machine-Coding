@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+  height: 25px;
+  border: solid black 1px;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.inner-container {
+  height: 25px;
+  position: absolute;
+  background-color: greenyellow;
+}
