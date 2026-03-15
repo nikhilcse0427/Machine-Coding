@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from "react"
 
 export default function StarRating({ numOfStars }) {
   const [starIdx, setStarIdx] = useState(0)
