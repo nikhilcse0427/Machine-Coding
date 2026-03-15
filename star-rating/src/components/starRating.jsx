@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 
 export default function StarRating({ numOfStars }) {
-  const [starIdx, setStarIdx] = useState(0);
-  const [hoverIdx, setHoverIdx] = useState(0);
+  const [starIdx, setStarIdx] = useState(0)
+  const [hoverIdx, setHoverIdx] = useState(0)
   useEffect(() => {
     console.log(starIdx);
   }, [starIdx]);
