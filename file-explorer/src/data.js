@@ -1,0 +1,48 @@
+const explorerData = [
+  {
+    id: 1,
+    name: "public",
+    isFolder: true,
+    children: [
+      {
+        id: 2,
+        name: "index.html",
+        isFolder: false,
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "src",
+    isFolder: true,
+    children: [
+      {
+        id: 4,
+        name: "App.js",
+        isFolder: false,
+        children: [],
+      },
+      {
+        id: 5,
+        name: "index.js",
+        isFolder: false,
+        children: [],
+      },
+      {
+        id: 6,
+        name: "styles.css",
+        isFolder: false,
+        children: [],
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: "package.json",
+    isFolder: false,
+    children: [],
+  },
+];
+
+export { explorerData };
